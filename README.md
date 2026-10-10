@@ -19,5 +19,5 @@ uv run pgzrun escape.py
 ## Layout
 
 - `escape.py` - the main game (grows chapter by chapter)
-- `images/`, `sounds/`, `music/` - game assets (Pygame Zero requires these folder names)
+- `images/`, `sounds/` - game assets (Pygame Zero requires these folder names; music is played from `sounds/`)
 - `docs/halo-design.md` - Halo theme mapping and feature backlog
