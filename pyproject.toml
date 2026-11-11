@@ -36,3 +36,8 @@ select = [
     "B",   # bugbear: likely bugs
     "UP",  # pyupgrade: outdated syntax
 ]
+
+[dependency-groups]
+dev = [
+    "ruff==0.17.4",  # exact pin: CI reads this version
+]
