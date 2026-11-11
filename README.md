@@ -1,3 +1,5 @@
+<img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
+
 # Mission Escape
 Mission Python, Masterchief Edition. A space adventure game built with Python! Based on *Mission Python* by Sean McManus.
 Built with [Pygame Zero](https://pygame-zero.readthedocs.io/).
