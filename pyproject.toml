@@ -1,8 +1,20 @@
 [project]
 name = "mission-escape"
 version = "0.1.0"
-description = "Mission Python, Master Chief Edition - a Halo-themed space adventure built with Pygame Zero"
+description = "Mission Escape, Master Chief Edition - a Halo-themed space adventure built with Pygame Zero"
 requires-python = ">=3.12"
 dependencies = [
     "pgzero>=1.2.1",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # import sorting
+    "B",   # bugbear: likely bugs
+    "UP",  # pyupgrade: outdated syntax
 ]
