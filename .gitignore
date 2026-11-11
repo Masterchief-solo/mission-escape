@@ -217,6 +217,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Claude Code
+# AI Agents
 CLAUDE.md
 .claude/
+AGENTS.md
