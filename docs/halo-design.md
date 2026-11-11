@@ -20,7 +20,6 @@ Phase 2 adds original Halo features.
 
 - Pygame Zero loads from `images/` and `sounds/`. Filenames are lowercase with no spaces.
 - We are starting with the book's provided assets, then will replace them gradually with Halo-style art.
-- Don't commit ripped official Halo assets. This is a personal project.
 - The per-image replacement plan, sourcing options and credits live in `halo-assets.md`.
 
 ## Phase 2 backlog
