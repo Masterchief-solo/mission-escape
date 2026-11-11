@@ -9,6 +9,24 @@ dependencies = [
 
 [tool.ruff]
 line-length = 100
+# names Pygame Zero provides at runtime
+builtins = [
+    "Actor",
+    "Rect",
+    "ZRect",
+    "animate",
+    "clock",
+    "images",
+    "keyboard",
+    "keymods",
+    "keys",
+    "mouse",
+    "music",
+    "screen",
+    "sounds",
+    "storage",
+    "tone",
+]
 
 [tool.ruff.lint]
 select = [
