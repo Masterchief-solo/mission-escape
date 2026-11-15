@@ -35,6 +35,7 @@ select = [
     "I",   # import sorting
     "B",   # bugbear: likely bugs
     "UP",  # pyupgrade: outdated syntax
+    "S",   # flake8-bandit, flags security issues
 ]
 
 [dependency-groups]
