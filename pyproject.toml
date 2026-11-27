@@ -40,5 +40,5 @@ select = [
 
 [dependency-groups]
 dev = [
-    "ruff==0.17.4",  # exact pin: CI reads this version
+    "ruff==0.17.6",  # exact pin: CI reads this version
 ]
